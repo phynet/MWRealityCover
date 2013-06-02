@@ -6,5 +6,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="test_one_title">Prueba de Realidad Aumentada</string>
     <string name="title_activity_modal_translucid">ModalTranslucid</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="configuracion">Config</string>
+    <string name="title_activity_info_activty">InfoActivty</string>
 
 </resources>
