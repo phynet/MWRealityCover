@@ -8,12 +8,4 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" 
     android:id="@+id/main_layout_id">
-
-    <Button
-        android:id="@+id/buttonShowCustomDialog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Show Custom Dialog"
-        android:layout_centerHorizontal="true" />
-
 </LinearLayout>

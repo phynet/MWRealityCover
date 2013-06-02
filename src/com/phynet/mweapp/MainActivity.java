@@ -6,19 +6,9 @@ import com.phynet.mweapp.R;
 
 import android.annotation.SuppressLint;
 import android.os.AsyncTask;
-import android.os.Bundle;
+
 import android.util.Log;
-import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-
-import android.view.View.OnClickListener;
-import android.widget.ImageView;
-import android.app.Dialog;
-import android.content.Context;
-
-
 import com.metaio.sdk.MetaioDebug;
 import com.metaio.sdk.jni.IGeometry;
 import com.metaio.sdk.jni.IMetaioSDKCallback;
@@ -90,7 +80,7 @@ public class MainActivity extends MetaioSDKViewActivity {
 
 			// Loading image geometry
 			String imagePath = AssetsManager
-					.getAssetPath("Assets1/TwoKeys_target.png");
+					.getAssetPath("Assets1/simon_sues_port.jpg");
 
 			if (imagePath != null) {
 				mImagePlane = metaioSDK.createGeometryFromImage(imagePath,
